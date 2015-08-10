@@ -1,7 +1,7 @@
 Package.describe({
   name: 'orionjs:accounts',
   summary: 'Orion accounts mannager',
-  version: '1.3.1',
+  version: '1.3.2',
   git: 'https://github.com/orionjs/orion'
 });
 
@@ -9,13 +9,13 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
   api.use([
-    'orionjs:base@1.3.0',
-    'orionjs:attributes@1.3.0',
+    'orionjs:base@1.3.1',
+    'orionjs:attributes@1.3.1',
     'accounts-base',
     'accounts-password',
-    'useraccounts:core@1.8.1',
-    'aldeed:simple-schema@1.3.2',
-    'matb33:collection-hooks@0.7.11',
+    'useraccounts:core@1.11.1',
+    'aldeed:simple-schema@1.3.3',
+    'matb33:collection-hooks@0.7.13',
     'meteorhacks:inject-initial@1.0.2',
     ]);
 

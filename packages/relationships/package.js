@@ -1,7 +1,7 @@
 Package.describe({
   name: 'orionjs:relationships',
   summary: 'Define and use relationships between meteor collections, entities and the dictionary',
-  version: '1.3.0',
+  version: '1.3.1',
   git: 'https://github.com/orionjs/orion'
 });
 
@@ -9,10 +9,10 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
   api.use([
-    'orionjs:base@1.3.0',
-    'orionjs:attributes@1.3.0',
+    'orionjs:base@1.3.1',
+    'orionjs:attributes@1.3.1',
     'less',
-    'jeremy:selectize@0.12.1'
+    'jeremy:selectize@0.12.1_3'
     ]);
 
   api.imply([
