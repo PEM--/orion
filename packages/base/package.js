@@ -1,7 +1,7 @@
 Package.describe({
   name: 'orionjs:base',
   summary: 'Orion',
-  version: '1.3.1',
+  version: '1.3.2',
   git: 'https://github.com/orionjs/orion'
 });
 
@@ -17,6 +17,7 @@ Package.onUse(function(api) {
     'iron:router@1.0.9',
     'aldeed:simple-schema@1.3.3',
     'zimme:active-route@2.3.0',
+    'orionjs:logging@1.3.0',
     'orionjs:lang-en@1.3.1'
     ]);
 
@@ -31,7 +32,6 @@ Package.onUse(function(api) {
     ]);
 
   api.addFiles([
-    'init.js',
     'helpers.js',
     'home-route.js',
     'layouts.js',
